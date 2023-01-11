@@ -1,0 +1,56 @@
+footer.footer 
+  .container
+    .footer__top 
+      .footer__block 
+        .footer__logo 
+          img(src="", alt="")
+        p We&nbsp;made it&nbsp;our mission to&nbsp;create community everyday and grow meaningful, lasting relationships with our staff, our suppliers and of&nbsp;course you, our customers.
+
+      .footer__block 
+        h2.h3 Contact Alowishus!
+        .footer__contacts 
+          a.contact-link(href="#") 
+            span.contact-link__icon
+              +icon("mail", 28, 28)
+            | alowishus@gmail.com
+          a.contact-link(href="#") 
+            span.contact-link__icon
+              +icon("phone", 28, 28)
+            | +110 214 214 2451
+        .footer__socials 
+          a.contact-link(href="#") 
+            span.contact-link__icon
+              +icon("facebook", 28, 28)
+          a.contact-link(href="#") 
+            span.contact-link__icon
+              +icon("instagram", 28, 28)
+          a.contact-link(href="#") 
+            span.contact-link__icon
+              +icon("twitter", 28, 28)
+          a.contact-link(href="#") 
+            span.contact-link__icon
+              +icon("linkedin", 28, 28)
+
+      .footer__block
+        h2 Store Locations
+        p Find your nearest Alowishus store with opening hours, location and contact details.
+        a.link-arrow(href="#")
+          | Find my Alowishus
+          +icon("arrow-right", 30, 30)  
+
+      .footer__block 
+        h2 First One&rsquo;s On&nbsp;Us!
+        form
+          +field({
+            type: "email",
+            inputPlaceholder: "E-mail",
+            required: true
+          })
+          button.btn-lg(type="submit") Subscribe
+
+    .footer__bottom
+      .footer__copyright Copyright © 2022 <a href="#">Alowishus Delicious</a>
+      .footer__links 
+        a(href="#") Terms of Use
+        | |
+        a(href="#") Privacy Policy
