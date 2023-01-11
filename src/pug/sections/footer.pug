@@ -3,7 +3,11 @@ footer.footer
     .footer__top 
       .footer__block 
         .footer__logo 
-          img(src="", alt="")
+          img(src="assets/img/logo-footer.png",
+            srcset="assets/img/logo-footer@2x.png 2x",
+            width="307",
+            height="122",
+            alt="logo")
         p We&nbsp;made it&nbsp;our mission to&nbsp;create community everyday and grow meaningful, lasting relationships with our staff, our suppliers and of&nbsp;course you, our customers.
 
       .footer__block 
@@ -32,14 +36,14 @@ footer.footer
               +icon("linkedin", 28, 28)
 
       .footer__block
-        h2 Store Locations
+        h2.h3 Store Locations
         p Find your nearest Alowishus store with opening hours, location and contact details.
         a.link-arrow(href="#")
           | Find my Alowishus
           +icon("arrow-right", 30, 30)  
 
       .footer__block 
-        h2 First One&rsquo;s On&nbsp;Us!
+        h2.h3 First One&rsquo;s On&nbsp;Us!
         form
           +field({
             type: "email",
