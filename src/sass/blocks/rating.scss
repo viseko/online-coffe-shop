@@ -1,7 +1,20 @@
 .rating {
-
-  // .rating__stars
+  max-width: 280px;
+  padding: 2.5rem 3rem;
+  font-size: 19px;
+  line-height: 3rem;
+  background-color: $cl-white;
+  border-radius: 24px;
 
   &__stars {
+    display: flex;
+    gap: 1rem;
+    color: $cl-black;
+    margin-bottom: 2rem;
+
+    svg {
+      width: 26px;
+      height: 26px;
+    }
   }
 }

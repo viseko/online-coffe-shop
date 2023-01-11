@@ -1,14 +1,46 @@
 .hero {
+  padding-top: 25rem;
+  padding-bottom: 16rem;
+  background-color: $cl-gray-light;
+
+  .container {
+    display: flex;
+    gap: 3rem;
+  }
 
   &__left {
+    position: relative;
+    z-index: 1;
+    max-width: 75rem;
+
+    p {
+      max-width: 530px;
+    }
   }
 
   &__right {
+    position: relative;
+    width: 620px;
+
+    img {
+      position: absolute;
+      top: 0;
+      right: -36px;
+      max-width: 700px;
+      max-height: 712px;
+    }
   }
 
   &__rating {
+    position: absolute;
+    left: 0;
+    bottom: 180px;
   }
 
   &__links {
+    display: flex;
+    align-items: center;
+    margin-top: 8rem;
+    gap: 4rem;
   }
 }
