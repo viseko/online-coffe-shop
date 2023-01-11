@@ -1,10 +1,43 @@
-// @font-face {
-// 	font-family: "Gilroy";
-// 	src:
-// 		local("Gilroy-Regular"), 
-// 		url("/fonts/Gilroy-Regular.woff2") format("woff2"),
-// 		url("/fonts/Gilroy-Regular.woff") format("woff");
-// 	font-style: normal;
-// 	font-weight: 200;
-//  font-display: swap;
-// }
+@font-face {
+	font-family: "Jost";
+	src:
+		local("Jost-Regular"), 
+		url("../fonts/Jost-Regular.woff2") format("woff2"),
+		url("../fonts/Jost-Regular.woff") format("woff");
+	font-style: normal;
+	font-weight: 400;
+ font-display: swap;
+}
+
+@font-face {
+	font-family: "Jost";
+	src:
+		local("Jost-Medium"), 
+		url("../fonts/Jost-Medium.woff2") format("woff2"),
+		url("../fonts/Jost-Medium.woff") format("woff");
+	font-style: normal;
+	font-weight: 500;
+ font-display: swap;
+}
+
+@font-face {
+	font-family: "Jost";
+	src:
+		local("Jost-SemiBold"), 
+		url("../fonts/Jost-SemiBold.woff2") format("woff2"),
+		url("../fonts/Jost-SemiBold.woff") format("woff");
+	font-style: normal;
+	font-weight: 700;
+ font-display: swap;
+}
+
+@font-face {
+	font-family: "Jost";
+	src:
+		local("Jost-ExtraBold"), 
+		url("../fonts/Jost-ExtraBold.woff2") format("woff2"),
+		url("../fonts/Jost-ExtraBold.woff") format("woff");
+	font-style: normal;
+	font-weight: 700;
+ font-display: swap;
+}
