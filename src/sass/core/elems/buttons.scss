@@ -1,21 +1,28 @@
 button,
 .btn {
 	display: inline-block;
-	padding: 1rem 2rem;
+	padding: 2rem;
 	color: $cl-white;
-	font-size: 16px;
-	line-height: 2rem;
-	background-color: $cl-primary;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 4rem;
+	text-transform: uppercase;
+	white-space: nowrap;
+	background-color: $cl-black;
 	border: 0;
 	border-radius: $border-radius;
 	transition: background-color $tr-btn;
+
+	&:hover {
+		color: $cl-white;
+	}
 
 	&:not(:disabled) {
 		cursor: pointer;
 	}
 
 	&:hover:not(:disabled) {
-		background-color: lighten($cl-primary, 10%);
+		background-color: lighten($cl-black, 10%);
 	}
 
 	&:active:not(:disabled) {
@@ -23,6 +30,28 @@ button,
 	}
 
 	&:disabled {
-		background-color: rgba($cl-primary, 50%);
+		background-color: rgba($cl-black, 50%);
+	}
+}
+
+.btn-lg {
+	padding: 2.5rem;
+}
+
+.btn-round {
+	width: 7rem;
+	height: 7rem;
+	color: $cl-black;
+	background-color: $cl-white;
+	border-radius: 50%;
+	box-shadow: 0px 30px 60px rgba(163, 168, 179, 0.15);
+
+	&--alt {
+		box-shadow: 0px 12px 30px rgba(205, 209, 214, 0.28);
+	}
+
+	&:hover:not(:disabled) {
+		color: lighten($cl-black, 30%);
+		background-color: $cl-white;
 	}
 }

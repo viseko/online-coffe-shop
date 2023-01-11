@@ -21,11 +21,12 @@ html {
 
 body {
 	min-height: 100%;
+	color: $color;
 	font-family: $font-family;
 	font-weight: 400;
 	font-size: $font-size;
 	line-height: $line-height;
-	background-color: $background;
+	background: $cl-white;
 }
 
 .visually-hidden {

@@ -1,16 +1,70 @@
 a {
 	color: $link-color;
-	font-size: inherit;
+	font-weight: 500;
 	text-decoration: none;
-	border-bottom: 1px solid transparent;
   cursor: pointer;
 	transition: color $tr-btn, border-color $tr-btn;
 
 	&:hover {
-		border-color: rgba($link-color, 30%);
+		color: lighten($link-color, 30%);
 	}
 
 	&:active {
 		opacity: $click-opacity;
+	}
+}
+
+.link-nav {
+	font-size: 15px;
+	line-height: 3rem;
+}
+
+.link-stroke {
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 3rem;
+	border-bottom: 1px solid $cl-black;
+
+	&:hover {
+		border-color: lighten($cl-black, 30%);
+	}
+}
+
+.link-arrow {
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 4rem;
+
+	svg {
+		width: 3rem;
+		height: 3rem;
+	}
+}
+
+.contact-link {
+	display: inline-flex;
+	align-items: center;
+	gap: 3rem;
+	color: $cl-gray;
+
+	&:hover {
+		color: lighten($cl-gray, 30%);
+	}
+
+	&__icon	{
+		width: 60px;
+		height: 60px;
+		padding: 16px;
+		background-color: $cl-white;
+		border-radius: 50%;
+		box-shadow: 0px 12px 30px rgba(205, 209, 214, 0.28);
+
+		svg	{
+			width: 30px;
+			height: 30px;
+		}
 	}
 }

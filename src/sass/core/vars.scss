@@ -1,8 +1,9 @@
 // Палитра цветов
-$cl-primary: #333333;
-$cl-white: #ffffff;
-$cl-black: #000000;
-$cl-blue: #2168de;
+$cl-black: #1B1B1D;
+$cl-gray: #64646A;
+$cl-gray-light: #EEEFF1;
+$cl-gray-light-2: #F3F4F5;
+$cl-white: #FFFFFF;
 
 // Контрольные точки
 $xs: 0;
@@ -19,18 +20,18 @@ $line_height: 1.5;
 
 // Базовые настройки
 $rem: 8px; // единица модульной сетки
-$background: $cl-white; // фон страницы
-$color: $cl-black; // цвет текста
-$link-color: $cl-blue; // цвет ссылок
+$background: linear-gradient(173.34deg, #FFFFFF 0%, #FFFFFF 0%, rgba(243, 244, 245, 0.2) 11.74%, #F3F4F5 27.92%, rgba(243, 244, 245, 0) 44.79%, rgba(243, 244, 245, 0.68) 60.42%, #F3F4F5 79.17%, #FFFFFF 100%); // фон страницы
+$color: $cl-gray; // цвет текста
+$link-color: $cl-black; // цвет ссылок
 $click-opacity: 70%; // непрозрачность при клике
 $heading-color: $cl-black; // цвет заголовков
 $min-width: 320px; // минимальная ширина окна
-$font-size: 2rem; // размер текста на десктопе
+$font-size: 24px; // размер текста на десктопе
 $font-size-sm: 14px; // размер текста на мобилках
-$line-height: 3rem; // высота строки
-$p-margin: 2rem; // отступы после абзацев
+$line-height: 4rem; // высота строки
+$p-margin: 4rem; // отступы после абзацев
 $container-width: 1200px; // макс. шиирина контейнера
-$container-padding: 5rem; // отступы контейнера на десктопе
-$container-padding-sm: 2.5rem; // отступы контейнера на мобилке
-$border-radius: 4px; // cтандартное скругление углов
+$container-padding: 10rem; // отступы контейнера на десктопе
+$container-padding-sm: 5rem; // отступы контейнера на мобилке
+$border-radius: 126px; // cтандартное скругление углов
 $tr-btn: 0.1s; // cкорость анимации для кнопок
