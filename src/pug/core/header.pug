@@ -1,2 +1,15 @@
 header.page-header
   .container
+    .logo.page-header__logo
+      img(src="assets/img/logo.png", srcset="assets/img/logo@2x.png 2x", alt="logo", width=126, height=50)
+    nav.page-header__nav.nav-main
+      .nav-main__links 
+        a.link-nav(href="#") Cafe Menu
+        a.link-nav(href="#") About Us
+        a.link-nav(href="#") Find Us
+        a.link-nav(href="#") Alowishus Catering
+      .nav-main__buttons
+        a.btn.btn-round(href="#")
+          +icon("basket", 24, 24)
+        a.btn.nav-main__btn(href="#") Buy gift vouchers
+      
