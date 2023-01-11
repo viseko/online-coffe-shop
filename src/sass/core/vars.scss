@@ -1,0 +1,36 @@
+// Палитра цветов
+$cl-primary: #333333;
+$cl-white: #ffffff;
+$cl-black: #000000;
+$cl-blue: #2168de;
+
+// Контрольные точки
+$xs: 0;
+$sm: 576px;
+$md: 768px; // mobile
+$lg: 992px; // tablet
+$xl: 1200px; // desktop
+$xxl: 1400px;
+
+// Шрифты
+$font_family: "Gilroy", Helvetica, Arial, sans-serif;
+$font_size: 16px;
+$line_height: 1.5;
+
+// Базовые настройки
+$rem: 8px; // единица модульной сетки
+$background: $cl-white; // фон страницы
+$color: $cl-black; // цвет текста
+$link-color: $cl-blue; // цвет ссылок
+$click-opacity: 70%; // непрозрачность при клике
+$heading-color: $cl-black; // цвет заголовков
+$min-width: 320px; // минимальная ширина окна
+$font-size: 2rem; // размер текста на десктопе
+$font-size-sm: 14px; // размер текста на мобилках
+$line-height: 3rem; // высота строки
+$p-margin: 2rem; // отступы после абзацев
+$container-width: 1200px; // макс. шиирина контейнера
+$container-padding: 5rem; // отступы контейнера на десктопе
+$container-padding-sm: 2.5rem; // отступы контейнера на мобилке
+$border-radius: 4px; // cтандартное скругление углов
+$tr-btn: 0.1s; // cкорость анимации для кнопок

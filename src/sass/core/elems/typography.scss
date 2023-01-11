@@ -1,0 +1,98 @@
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	width: 100%;
+	color: $heading-color;
+	font-weight: 700;
+}
+
+.h1,
+h1 {
+	margin-bottom: 3rem;
+	font-size: 6rem;
+	line-height: 7rem;
+
+  @media (max-width: $md) {
+		margin-bottom: 2rem;
+		font-size: 4rem;
+  }
+}
+
+.h2,
+h2 {
+	margin-bottom: 3rem;
+	font-size: 4rem;
+	line-height: 5rem;
+
+	@media (max-width: $md) {
+		margin-bottom: 2rem;
+		font-size: 3rem;
+		line-height: 3rem;
+	}
+}
+
+.h3,
+h3 {
+	margin-bottom: 3rem;
+	font-size: 3rem;
+	line-height: 4rem;
+
+	@media (max-width: $md) {
+		margin-bottom: 2rem;
+		font-size: 20px;
+		line-height: 3rem;
+	}
+}
+
+.h4,
+h4 {
+	margin-bottom: 2rem;
+	font-size: 20px;
+	line-height: 3rem;
+
+	@media (max-width: $md) {
+		margin-bottom: 2rem;
+		font-size: 18px;
+		line-height: 3rem;
+	}
+}
+
+p,
+.p {
+  margin: 0 0 $p-margin;
+  width: 100%;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+ins,
+u {
+	text-decoration: none;
+	border-bottom: 1px solid rgba($cl-black, 30%);
+}
+
+mark {
+	padding: 2px;
+	border-radius: 4px;
+	background-color: lighten($cl-black, 80%);
+}
+
+blockquote {
+	display: block;
+	margin: 2rem 0;
+	padding: 1rem 2rem;
+	background-color: lighten($cl-black, 80%);
+	border-radius: $border-radius;
+}
