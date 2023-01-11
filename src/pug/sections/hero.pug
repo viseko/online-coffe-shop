@@ -1,0 +1,30 @@
+section.hero 
+  .container
+    .hero__left 
+      h1
+        | Alowishus Delicious Coffee 
+        span.reward-badge 
+          img(src="assets/img/revard-sm.png",
+            srcset="assets/img/revard-sm@2x.png 2x"
+            alt="reward",
+            width=73,
+            height=58)
+      p A&nbsp;drink from the &lsquo;My Alowishus&rsquo; bottled brews range&nbsp;OR grab one of&nbsp;our delicious coffee&rsquo;s.
+      .hero-links 
+        a.btn.btn-lg(href="#") Download App
+        a.link-stroke(href="#") Shop Coffee
+
+    .hero__right
+      img(src="assets/img/cup.png",
+        srcset="assets/img/cup@2x.png 2x",
+        width=700,
+        height=712,
+        alt="cup")
+      .hero__rating.rating 
+        .rating__stars
+          +icon("star", 26, 26)
+          +icon("star", 26, 26)
+          +icon("star", 26, 26)
+          +icon("star", 26, 26)
+          +icon("star", 26, 26)
+        | 4.9 out of&nbsp;5&nbsp;Overall Star Rating for All Local Business.
