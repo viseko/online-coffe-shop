@@ -47,8 +47,7 @@ function watcher_online () {
 	gulp.watch(path.watch.js, js)
 }
 
-// const fonts = gulp.series(otfToTtf, ttfToWoff, fontsStyle);
-
+const fonts = gulp.series(otfToTtf, ttfToWoff, fontsStyle);
 const mainTasks = gulp.series(reset, gulp.parallel(copy, pughtml, scss, js, images)); // для работы с Pug
 // const mainTasks = gulp.series(reset, gulp.parallel(copy, fonts, html, scss, js, images)); // для работы с HTML
 
@@ -63,5 +62,6 @@ export { online }
 export { build }
 export { deployZIP }
 export { deploy }
+export {fonts}
 
 gulp.task('default', dev);
